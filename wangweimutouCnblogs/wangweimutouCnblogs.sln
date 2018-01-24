@@ -3,8 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{59D9F8E9-BF96-40F1-BE58-8CFA17BF3E47}"
+	ProjectSection(SolutionItems) = preProject
+		注意事项.txt = 注意事项.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTest.Service", "WcfTest.Service\WcfTest.Service.csproj", "{DFEBAFDF-7A1B-4268-A4BA-353F6C657C70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF初探-1：认识WCF", "WCF初探-1：认识WCF", "{467679A5-CF3E-4B4A-B2C0-49449177AABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTest.Client", "WcfTest.Client\WcfTest.Client.csproj", "{A9056F75-E272-47F8-B390-5A22697932EF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFEBAFDF-7A1B-4268-A4BA-353F6C657C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEBAFDF-7A1B-4268-A4BA-353F6C657C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEBAFDF-7A1B-4268-A4BA-353F6C657C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEBAFDF-7A1B-4268-A4BA-353F6C657C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9056F75-E272-47F8-B390-5A22697932EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9056F75-E272-47F8-B390-5A22697932EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9056F75-E272-47F8-B390-5A22697932EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9056F75-E272-47F8-B390-5A22697932EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFEBAFDF-7A1B-4268-A4BA-353F6C657C70} = {467679A5-CF3E-4B4A-B2C0-49449177AABB}
+		{A9056F75-E272-47F8-B390-5A22697932EF} = {467679A5-CF3E-4B4A-B2C0-49449177AABB}
 	EndGlobalSection
 EndGlobal
